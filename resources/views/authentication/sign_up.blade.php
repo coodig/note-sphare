@@ -9,9 +9,18 @@
 <body class="bg-light">
     <div class="container d-flex align-items-center justify-content-center min-vh-100">
         <div class="card shadow-sm p-4" style="width: 100%; max-width: 400px;">
-            <h4 class="mb-4 text-center">Login to YourAppName</h4>
+            <h4 class="mb-4 text-center">Sign Up</h4>
 
             <form>
+
+                <div class="mb-3">
+                    <label for="first_name" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="first_name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="last_name" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="last_name" required>
+                </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" required>
@@ -30,7 +39,7 @@
                 <button type="submit" class="btn btn-primary w-100">Login</button>
 
                 <div class="mt-3 text-center">
-                    <a href="#">Forgot Your Password?</a>
+                    <a href="">Forgot Your Password?</a>
                 </div>
             </form>
         </div>
